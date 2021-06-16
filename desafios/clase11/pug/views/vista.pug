@@ -1,0 +1,24 @@
+extends index 
+
+block partial
+    div(class="jumbotron")
+        h1="Vista de Productos"
+        br
+
+        if hayProductos 
+            div(class="table-responsive")
+                table(class="table table-dark")
+                    tr 
+                        th="Nombre"
+                        th="Precio"
+                        th="Foto"
+                    each prod in hayProductos
+                        tr 
+                            td=prod.title
+                            td="$"+prod.price 
+                            td 
+                                img(width="50" src=prod.thumbnail)
+
+        else 
+            h3(class="alert alert-warning")="No se encontraron productos"
+        a(href="/" class="btn btn-info m-3")="Volver"

@@ -22,4 +22,5 @@ yarn-error.log*
 
 
 /apuntes
-/desafios/clase 07/node_modules
+/desafios/clase07/node_modules
+/desafios/clase11/node_modules
