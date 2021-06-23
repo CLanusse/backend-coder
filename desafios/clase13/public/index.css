@@ -1,0 +1,22 @@
+.table td, .table th {
+    vertical-align: middle;
+}
+h1 {
+    color: blue;
+}
+hr {
+    background-color: #ddd;
+}
+
+.user {
+    font-weight: 700;
+    color: blue;
+}
+.fyh {
+    color: brown;
+    font-size: 14px;
+}
+.text {
+    font-style: italic;
+    color: green;
+}
