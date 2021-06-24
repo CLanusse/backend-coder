@@ -8,7 +8,7 @@
 
 # production
 /build
-
+/.vscode
 # misc
 .DS_Store
 .env.local
@@ -26,3 +26,4 @@ yarn-error.log*
 /desafios/clase11/node_modules
 /desafios/clase12/node_modules
 /desafios/clase13/node_modules
+/desafios/clase14/node_modules
